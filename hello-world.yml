@@ -1,0 +1,10 @@
+logging:
+  level: INFO
+  loggers:
+    com.example.sample: DEBUG
+
+template: Hello, %s!
+defaultName: Stranger
+
+swagger:
+  resourcePackage: com.example.sample.resources
